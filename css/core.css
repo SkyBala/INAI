@@ -1,0 +1,160 @@
+.hero {
+  background-color: #4c7d9d;
+  height: 100vh;
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  opacity: .2;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-content {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 span {
+  font-weight: bold;
+  display: block;
+  margin: 7px 0;
+}
+
+.features {
+  margin-top: 80px;
+}
+
+.features .item-feature {
+  text-align: center;
+  font-size: 14px;
+}
+
+.latest-works {
+  margin: 80px 0;
+}
+
+.latest-works .work-item {
+  height: 250px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(0);
+  transition: .3s ease-in-out;
+  -webkit-transition: .3 ease-in-out;
+}
+
+.latest-works .work-item:hover {
+  transform: rotate(-90deg);
+}
+
+.latest-works h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.work-item img {
+  width: 40%;
+  height: 100%;
+}
+
+.first-class img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.first-class h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.first-class p {
+  text-align: center;
+}
+
+.clients {
+  margin: 80px 0;
+}
+
+.clients h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer-caption {
+  background-color: #a85a68;
+  padding: 60px 0 90px;
+}
+
+.footer-caption h2 {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-caption p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center
+}
+
+.footer footer .link-list {
+  background-color: #2d2d2d;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer footer ul {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.footer footer .bottom-footer {
+  background-color: #000;
+  font-size: 16px;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper .row div {
+    max-width: 100%;
+    flex: 1;
+    margin-bottom: 30px;
+  }
+
+  .wrapper .row {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .work-item img {
+    height: 80%;
+  }
+}
+
+/* @media only screen and (max-width: 840px) {
+  .work-item img {
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .work-item img {
+    height: 50%;
+  }
+} */

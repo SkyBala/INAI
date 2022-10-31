@@ -1,0 +1,37 @@
+header {
+  background-color: #585857;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+header li {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 16px;
+  color: rgb(143, 143, 143);
+  transition: .3s ease;
+  padding: 10px;
+}
+
+header li:hover {
+  background-color: #bd0d2e;
+  border-radius: 5px;
+}
+
+header li a {
+  font-size: 16px;
+  color: #fff !important;
+}
+
+header .navbar .navbar-toggler-icon {
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 6px;
+}
+nav .navbar-nav .navbar-right{
+  display: flex;
+  flex-direction: row;
+}
